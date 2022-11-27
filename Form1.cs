@@ -171,7 +171,41 @@ namespace databases_project
             dataGridView1.DataSource = dt;
         }
 
+        private void run_query_Click(object sender, EventArgs e)
+        {
+            // reset text in run_query button
+            run_query.Text = "Query";
+
+            // run user input query, if not valid display error in run_query button
+            try
+            {
+                //connection object
+                SQLiteConnection con = new SQLiteConnection(@"data source=" + path);
+
+                // command object
+                string query = Query.Text;
+                SQLiteCommand cmd = new SQLiteCommand(query, con);
+
+                // datatable
+                DataTable dt = new DataTable();
+                SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd);
+                adapter.Fill(dt);
+
+                // insert data into dataGrid
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception error)
+            {
+                run_query.Text = error.Message;
+            }
+        }
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Query_TextChanged(object sender, EventArgs e)
         {
 
         }

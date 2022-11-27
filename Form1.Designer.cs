@@ -38,6 +38,8 @@
             this.customers_join_sales = new System.Windows.Forms.Button();
             this.employees_join_sales = new System.Windows.Forms.Button();
             this.join_all = new System.Windows.Forms.Button();
+            this.Query = new System.Windows.Forms.RichTextBox();
+            this.run_query = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -142,11 +144,32 @@
             this.join_all.UseVisualStyleBackColor = true;
             this.join_all.Click += new System.EventHandler(this.join_all_Click);
             // 
+            // Query
+            // 
+            this.Query.Location = new System.Drawing.Point(12, 255);
+            this.Query.Name = "Query";
+            this.Query.Size = new System.Drawing.Size(232, 135);
+            this.Query.TabIndex = 10;
+            this.Query.Text = "Query";
+            this.Query.TextChanged += new System.EventHandler(this.Query_TextChanged);
+            // 
+            // run_query
+            // 
+            this.run_query.Location = new System.Drawing.Point(12, 396);
+            this.run_query.Name = "run_query";
+            this.run_query.Size = new System.Drawing.Size(232, 42);
+            this.run_query.TabIndex = 11;
+            this.run_query.Text = "Run Query";
+            this.run_query.UseVisualStyleBackColor = true;
+            this.run_query.Click += new System.EventHandler(this.run_query_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.run_query);
+            this.Controls.Add(this.Query);
             this.Controls.Add(this.join_all);
             this.Controls.Add(this.employees_join_sales);
             this.Controls.Add(this.customers_join_sales);
@@ -178,5 +201,7 @@
         private Button customers_join_sales;
         private Button employees_join_sales;
         private Button join_all;
+        private RichTextBox Query;
+        private Button run_query;
     }
 }
