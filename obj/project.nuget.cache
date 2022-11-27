@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xXe2OGeWF0RCWA4Jc5Ot8EshIPKuHPSMSyeQInNX2cgBUHyLzS9METVBl2uBOi5U3sW/IUvcZAIQLI8G3R//yw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jrcma\\OneDrive\\Documents\\Visual Studio 2022\\Code\\databases_project\\databases_project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jrcma\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.117\\stub.system.data.sqlite.core.netstandard.1.0.117.nupkg.sha512",
+    "C:\\Users\\jrcma\\.nuget\\packages\\system.data.sqlite.core\\1.0.117\\system.data.sqlite.core.1.0.117.nupkg.sha512"
+  ],
+  "logs": []
+}
