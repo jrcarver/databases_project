@@ -47,10 +47,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(576, 22);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(269, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(547, 81);
+            this.label1.Size = new System.Drawing.Size(250, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "Board Game Store";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -59,21 +58,19 @@
             // 
             this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(576, 155);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.dataGridView1.Location = new System.Drawing.Point(269, 63);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 92;
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(1112, 925);
+            this.dataGridView1.Size = new System.Drawing.Size(519, 375);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // show_games
             // 
-            this.show_games.Location = new System.Drawing.Point(26, 155);
-            this.show_games.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.show_games.Location = new System.Drawing.Point(12, 63);
             this.show_games.Name = "show_games";
-            this.show_games.Size = new System.Drawing.Size(242, 104);
+            this.show_games.Size = new System.Drawing.Size(113, 42);
             this.show_games.TabIndex = 2;
             this.show_games.Text = "Show Games";
             this.show_games.UseVisualStyleBackColor = true;
@@ -81,10 +78,9 @@
             // 
             // show_customers
             // 
-            this.show_customers.Location = new System.Drawing.Point(281, 155);
-            this.show_customers.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.show_customers.Location = new System.Drawing.Point(131, 63);
             this.show_customers.Name = "show_customers";
-            this.show_customers.Size = new System.Drawing.Size(242, 104);
+            this.show_customers.Size = new System.Drawing.Size(113, 42);
             this.show_customers.TabIndex = 3;
             this.show_customers.Text = "Show Customers";
             this.show_customers.UseVisualStyleBackColor = true;
@@ -92,10 +88,9 @@
             // 
             // show_employees
             // 
-            this.show_employees.Location = new System.Drawing.Point(26, 274);
-            this.show_employees.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.show_employees.Location = new System.Drawing.Point(12, 111);
             this.show_employees.Name = "show_employees";
-            this.show_employees.Size = new System.Drawing.Size(242, 104);
+            this.show_employees.Size = new System.Drawing.Size(113, 42);
             this.show_employees.TabIndex = 4;
             this.show_employees.Text = "Show Employees";
             this.show_employees.UseVisualStyleBackColor = true;
@@ -103,10 +98,9 @@
             // 
             // show_sales
             // 
-            this.show_sales.Location = new System.Drawing.Point(281, 274);
-            this.show_sales.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.show_sales.Location = new System.Drawing.Point(131, 111);
             this.show_sales.Name = "show_sales";
-            this.show_sales.Size = new System.Drawing.Size(242, 104);
+            this.show_sales.Size = new System.Drawing.Size(113, 42);
             this.show_sales.TabIndex = 5;
             this.show_sales.Text = "Show Sales";
             this.show_sales.UseVisualStyleBackColor = true;
@@ -114,10 +108,9 @@
             // 
             // games_join_sales
             // 
-            this.games_join_sales.Location = new System.Drawing.Point(26, 392);
-            this.games_join_sales.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.games_join_sales.Location = new System.Drawing.Point(12, 159);
             this.games_join_sales.Name = "games_join_sales";
-            this.games_join_sales.Size = new System.Drawing.Size(242, 104);
+            this.games_join_sales.Size = new System.Drawing.Size(113, 42);
             this.games_join_sales.TabIndex = 6;
             this.games_join_sales.Text = "Games join Sales";
             this.games_join_sales.UseVisualStyleBackColor = true;
@@ -125,10 +118,9 @@
             // 
             // customers_join_sales
             // 
-            this.customers_join_sales.Location = new System.Drawing.Point(281, 392);
-            this.customers_join_sales.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.customers_join_sales.Location = new System.Drawing.Point(131, 159);
             this.customers_join_sales.Name = "customers_join_sales";
-            this.customers_join_sales.Size = new System.Drawing.Size(242, 104);
+            this.customers_join_sales.Size = new System.Drawing.Size(113, 42);
             this.customers_join_sales.TabIndex = 7;
             this.customers_join_sales.Text = "Customers join Sales";
             this.customers_join_sales.UseVisualStyleBackColor = true;
@@ -136,10 +128,9 @@
             // 
             // employees_join_sales
             // 
-            this.employees_join_sales.Location = new System.Drawing.Point(26, 511);
-            this.employees_join_sales.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.employees_join_sales.Location = new System.Drawing.Point(12, 207);
             this.employees_join_sales.Name = "employees_join_sales";
-            this.employees_join_sales.Size = new System.Drawing.Size(242, 104);
+            this.employees_join_sales.Size = new System.Drawing.Size(113, 42);
             this.employees_join_sales.TabIndex = 8;
             this.employees_join_sales.Text = "Employees join Sales";
             this.employees_join_sales.UseVisualStyleBackColor = true;
@@ -147,10 +138,9 @@
             // 
             // join_all
             // 
-            this.join_all.Location = new System.Drawing.Point(281, 511);
-            this.join_all.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.join_all.Location = new System.Drawing.Point(131, 207);
             this.join_all.Name = "join_all";
-            this.join_all.Size = new System.Drawing.Size(242, 104);
+            this.join_all.Size = new System.Drawing.Size(113, 42);
             this.join_all.TabIndex = 9;
             this.join_all.Text = "Join all tables";
             this.join_all.UseVisualStyleBackColor = true;
@@ -158,20 +148,18 @@
             // 
             // Query
             // 
-            this.Query.Location = new System.Drawing.Point(26, 629);
-            this.Query.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.Query.Location = new System.Drawing.Point(12, 255);
             this.Query.Name = "Query";
-            this.Query.Size = new System.Drawing.Size(493, 327);
+            this.Query.Size = new System.Drawing.Size(232, 135);
             this.Query.TabIndex = 10;
             this.Query.Text = "Query";
             this.Query.TextChanged += new System.EventHandler(this.Query_TextChanged);
             // 
             // run_query
             // 
-            this.run_query.Location = new System.Drawing.Point(26, 977);
-            this.run_query.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
+            this.run_query.Location = new System.Drawing.Point(12, 396);
             this.run_query.Name = "run_query";
-            this.run_query.Size = new System.Drawing.Size(497, 104);
+            this.run_query.Size = new System.Drawing.Size(232, 42);
             this.run_query.TabIndex = 11;
             this.run_query.Text = "Run Query";
             this.run_query.UseVisualStyleBackColor = true;
@@ -179,9 +167,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1714, 1110);
+            this.ClientSize = new System.Drawing.Size(800, 467);
             this.Controls.Add(this.run_query);
             this.Controls.Add(this.Query);
             this.Controls.Add(this.join_all);
@@ -194,7 +182,6 @@
             this.Controls.Add(this.show_games);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
